@@ -1,0 +1,10 @@
+@layer utilities {
+    .gradient-border {
+        border: 1px solid transparent;
+        background:
+                linear-gradient(#fff, #fff) padding-box,
+                linear-gradient(90deg, #F1F1F1, #D6D6D6, #E4E4E4) border-box;
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "@dash/tailwind-config",
+  "version": "0.0.1",
+  "main": "tailwind.config.js",
+  "type": "module"
+}
