@@ -8,7 +8,6 @@ function App() {
 
     const submit = () => {
         if (!value.trim()) {
-            // 에러 플래그 던지기
             setError("필수 입력값이에요");
         }
     };
