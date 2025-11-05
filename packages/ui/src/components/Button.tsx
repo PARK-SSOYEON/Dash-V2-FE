@@ -12,8 +12,11 @@ const buttonVariants = cva(baseStyles, {
             mono:
                 "gradient-border bg-white text-gray-500 hover:bg-gray-50 " +
                 "focus-visible:ring-offset-2 focus-visible:ring-offset-white",
-            color_line:
-                "border border-blue-500 bg-white text-blue-600 hover:bg-blue-50 " +
+            blue_line:
+                "border border-blue-500 bg-white text-blue-500 hover:bg-blue-50 " +
+                "focus-visible:ring-offset-2 focus-visible:ring-offset-white",
+            red_line:
+                "border border-red-500 bg-white text-red-400 hover:bg-blue-50 " +
                 "focus-visible:ring-offset-2 focus-visible:ring-offset-white",
             color_fill:
                 "bg-blue-500 text-white hover:bg-blue-600 " +
@@ -32,7 +35,7 @@ const buttonVariants = cva(baseStyles, {
         {size: "sm", iconOnly: true, class: "h-14 w-14 rounded-full"},
     ],
     defaultVariants: {
-        mode: "color_line",
+        mode: "blue_line",
         size: "md",
         iconOnly: false,
     },
